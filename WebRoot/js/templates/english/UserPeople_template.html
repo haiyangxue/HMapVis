@@ -1,0 +1,46 @@
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<div class="main">
+<ul id="peopleList" class="cbp_tmtimeline">
+{{#peoples}}
+<li>
+	<div class="cbp_tmicon cbp_tmicon-phone">
+
+		<a id="tagA"><img src="css/images/file_edit.png"
+			style="width:60%; height:60%; margin-top:5px;" people_id={{people_id}}> </a>
+	</div>
+	<div class="cbp_tmlabel">
+		<h2 id="peopleName">{{people_name}}</h2>
+		<p>
+		   <font style="background:#007acd;">字：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp{{people_character }}
+		</p>
+		<p style="background:#3f3f3f;">      
+		   <font style="background:#007acd;">谥号：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp{{temple_title }}
+		</p>
+		
+		<p >
+			<font style="background:#007acd;">所属朝代：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp{{dynasty_name }}
+		</p>
+	
+		<p style="background:#3f3f3f;">
+			<span style="width:100px;background:#007acd;">时间范围：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>&nbsp&nbsp{{birthday }} ~ {{deathday }}
+		</p>
+		
+		<p >
+			 <font style="background:#007acd;">人物影响：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp{{people_influ }}
+		</p>
+	</div>
+</li>
+{{/peoples}}
+</ul>
+      <div class="page_btn">
+				<div class="page_box">
+					<a id="prev" class="prev" style="display:none" ><img src="css/images/up1.png" name="pre" style="width:80%; margin:0 auto;"  /></a><br/><br/><hr/>
+					<span class="num">
+						<span id="current_page" class="current_page">1</span>&nbsp<span style="padding:0 3px;">/</span>&nbsp<span id="total_page" class="total"></span>
+					</span><br/><hr/><br/>
+					<a id="next" class="next" ><img src="css/images/down1.png" name="nex" style="width:80%; margin:0 auto;" /></a>
+				</div>
+			</div>
+</div>
+

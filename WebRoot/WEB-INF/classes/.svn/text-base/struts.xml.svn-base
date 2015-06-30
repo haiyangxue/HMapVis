@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="utf-8" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.ui.theme" value="simple" />
+	<constant name="struts.multipart.maxSize" value="10000000" />
+	
+	<package name="base_package" namespace="/action" extends="struts-default">
+		<global-results>
+			<result name="input">/index.jsp</result>
+		 	<!-- result name="exception">/WEB-INF/jsp/error.jsp</result-->  
+		</global-results>
+	</package>
+	
+	
+	<include file="com/hmapvis/action/struts_action.xml" />
+	<include file="com/hmapvis/test/struts_action.xml" />
+</struts>

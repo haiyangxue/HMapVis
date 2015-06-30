@@ -1,0 +1,128 @@
+.bgDiv {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 9999; background : rgba( 0, 0, 0, 0);
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0);
+}
+
+.dateWrap {
+	position: absolute;
+	z-index: 99999;
+	width: 336px;
+	height: 21px;
+	padding: 5px 0px 10px 10px;
+	background: #2f2f2f;
+	border-radius: 5px;
+	color: white;
+	font-family: "微软雅黑";
+}
+
+.yearPicker,.monthPicker,.dayPicker,.hourPicker,.minPicker {
+	z-index: 999999;
+	text-align: center;
+	color: #bbb;
+	border: 0px !important;
+	border-bottom: 1px solid #DDDDDD !important;
+	background-color: white !important;
+	-moz-border-radius: 2px !important;
+	-ms-border-radius: 2px !important;
+	-o-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	border-radius: 2px !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.yearPicker {
+	width: 55px;
+}
+
+.monthPicker,.dayPicker,.hourPicker,.minPicker {
+	width: 30px;
+}
+
+.monthPanel {
+	position: absolute;
+	top: 35px;
+	left: 50px;
+	z-index: 99999;
+	width: 115px;
+	height: 80px;
+	background: #2f2f2f;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.dayPanel {
+	position: absolute;
+	top: 35px;
+	left: 120px;
+	z-index: 99999;
+	width: 142px;
+	background: #2f2f2f;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.hourPanel {
+	position: absolute;
+	top: 35px;
+	left: 150px;
+	z-index: 99999;
+	width: 169px;
+	height: 107px;
+	background: #2f2f2f;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.minPanel {
+	position: absolute;
+	top: 35px;
+	left: 160px;
+	z-index: 99999;
+	width: 142px;
+	height: 57px;
+	background: #2f2f2f;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.smallBlock {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	margin-left: 7px;
+	background: #4f4f4f;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+
+.smallBlock:hover {
+	background: #6f6f6f;
+}
+
+.confirm {
+	margin-top: -5px;
+	background-color: #2f2f2f;
+	border: 1px solid #2f2f2f;
+	color: #f4f4f4;
+	text-shadow: none;
+	padding: 5px 10px 9px 5px;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 微软雅黑;
+	font-weight: normal;
+	-moz-border-radius: 0px 5px 5px 0px;
+	-ms-border-radius: 0px 5px 5px 0px;
+	-o-border-radius: 0px 5px 5px 0px;
+	-webkit-border-radius: 0px 5px 5px 0px;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.confirm:hover {
+	background-color: #6f6f6f;
+}

@@ -1,0 +1,45 @@
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<div class="container">	
+   <div class="main">
+      <ul id="placeList" class="cbp_tmtimeline">
+       {{#places}}
+       	  <li>
+           
+            <div class="cbp_tmicon cbp_tmicon-phone">
+            	<a id="tagA"><img src="css/images/file_edit.png"  place_id="{{place_id}}" style="width:60%; height:60%; margin-top:5px;"></a>
+            </div>
+			<div class="cbp_tmlabel">
+				<h2 id="placeName">{{place_name}}</h2>
+					<p>
+						<span style="width:100px;background:#007acd;">当时名称：
+						</span>&nbsp&nbsp{{place_name}}
+					</p>
+					<p style="background:#3f3f3f;">
+						<font style="background:#007acd;">地点位置：&nbsp</font>&nbsp&nbsp{{place_loc}}
+					</p>
+					<p>
+						<font style="background:#007acd;">现在名称：&nbsp</font>&nbsp&nbsp{{now_name}}
+					</p>
+					<p style="background:#3f3f3f;">
+						<font style="background:#007acd;">所属朝代：&nbsp</font>&nbsp&nbsp{{dynasty_name}}
+					</p>
+					
+					
+			</div>
+		 </li>
+		{{/places}}
+		</ul>
+	</div>
+	<div class="page_btn">
+		<div class="page_box">
+			<a id="prev" class="prev" style="display:none">
+				<img src="css/images/up1.png" name="pre" style="width:80%; margin:0 auto;" />
+			</a><br/><br/><hr/>
+			<span class="num">
+			<span id="current_page">1</span>&nbsp<span style="padding:0 3px;">/</span>&nbsp<span id="total_page"class="total"></span>
+			</span><br/><hr/><br/>
+			<a id="next" class="next"><img src="css/images/down1.png" name="nex" style="width:80%; margin:0 auto;"/></a>
+		</div>
+	</div>
+</div>

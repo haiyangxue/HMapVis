@@ -1,0 +1,6 @@
+div.resizer {
+    /*text-align: center;
+    cursor: s-resize;
+    height: 15px;
+    clear: both;*/
+}

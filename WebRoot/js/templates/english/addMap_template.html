@@ -1,0 +1,35 @@
+<div class="wrapper">
+	<div class="title">
+		<h1>Add Map</h1>
+	</div>			
+	<div class="add-content">
+		<img src="images/loading.gif" id="loading" style="display: none;"></img>
+		<input type="file" id="file" name="file" /><br />
+		 
+		<input type="button" id="upload" value="upload" class="buttonInput" style="width:100%;" /><br/>
+		<input type="button" id="reupload" value="reupload" class="buttonInput" style="width:100%;display: none;" /><br/>
+		<input type="button" id="showMap" value="show it on the map" class="buttonInput" style="width:100%;" onclick="showMap();" />
+		<input type="button" id="editMap" value="reset" class="buttonInput" style="width:100%;display:none;" onclick="editMap();" /><br/><br/>
+		
+		<div class="box">
+			Map Name:<input type="text" id="map_name" class="txtInput" style="width:100%;"></input>
+		</div><br/>
+		<div class="box" id="dl">
+		
+		</div><br/>
+		<div class="box" id="tl">
+			Type:
+			<select id="mapType" class="txtInput" style="width:100%;">
+				<option value = "1">National</option>
+				<option value = "2">Provincial</option>
+			</select>
+		<div><br />
+		<div class="box">
+			<input type="text" id="map_start" class="txtInput" value="Start time" onfocus="onTimeStartfocus('map_start')" onblur="onTimeStartBlur('map_start')" style="float:left; width:49%;"></input>
+			<span style="float:left; margin-top:12px; width:2%;">&nbsp-&nbsp</span>
+			<input type="text" id="map_end" class="txtInput" value="End time" onfocus="onTimeEndfocus('map_end')" onblur="onTimeEndBlur('map_end')" style="float:left; width:49%;"></input><br />
+		</div>
+		<input type="button" id="map_submit" value="Submit" class="buttonInput" style="width:100%;" /><br/>
+		<input type="button" id="map_cancel" value="Cancel" class="buttonInput" style="width:100%;" /><br/><br/>
+	</div>
+</div>

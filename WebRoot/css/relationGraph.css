@@ -1,0 +1,35 @@
+.node {
+	stroke: #fff;
+	stroke-width: 2px;
+}
+
+.circle {
+	stroke: #fff;
+	stroke-opacity: .5;
+	stroke-width: 4px;
+	-moz-box-shadow:2px 0px 3px rgba(0, 0, 0, 0.5); 
+	-webkit-box-shadow:2px 0px 3px rgba(0, 0, 0, 0.5); 
+	box-shadow:2px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+.link {
+	stroke: #999;
+	stroke-opacity: .8;
+}
+
+.txt, .txtLineOne, .txtLineTwo, .txtLineThree {
+	stroke: #fff;
+	stroke-width: 0px;
+}
+
+.cententWrap {
+	stroke: #999;
+	stroke-width: 2px;
+}
+
+.inText {
+	stroke: #fff;
+	stroke-width: 0px;
+	font-size: 10px;
+	font-weight: bold;
+}

@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english
+END
+addPlace_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/addPlace_template.html
+END
+showMapPlace_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/showMapPlace_template.html
+END
+heatMapEvent_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/heatMapEvent_template.html
+END
+UserEvent_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/UserEvent_template.html
+END
+editEvent_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/editEvent_template.html
+END
+queryEvent_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/queryEvent_template.html
+END
+editMapPlace_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/editMapPlace_template.html
+END
+filter_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/filter_template.html
+END
+editPeople_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/editPeople_template.html
+END
+addEvent_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/addEvent_template.html
+END
+showMapEvent_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/showMapEvent_template.html
+END
+addMap_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/addMap_template.html
+END
+relation_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/relation_template.html
+END
+eventTypes_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/eventTypes_template.html
+END
+searchPlace_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/searchPlace_template.html
+END
+peoplesList_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/peoplesList_template.html
+END
+queryResult_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/queryResult_template.html
+END
+editMapEvent_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/editMapEvent_template.html
+END
+educations_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/educations_template.html
+END
+user_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/user_template.html
+END
+heatMap_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/heatMap_template.html
+END
+showpeople_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/showpeople_template.html
+END
+places_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/places_template.html
+END
+dynasties_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/dynasties_template.html
+END
+addPeople_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/addPeople_template.html
+END
+singleevent_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/singleevent_template.html
+END
+jobs_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/jobs_template.html
+END
+UserPeople_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/UserPeople_template.html
+END
+resultList_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/resultList_template.html
+END
+eventTypesShow_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/eventTypesShow_template.html
+END
+UserPlace_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/UserPlace_template.html
+END
+editPlace_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/editPlace_template.html
+END
+showEventVideo_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MapVis/!svn/ver/426/HMapVis_0.2/WebRoot/js/templates/english/showEventVideo_template.html
+END

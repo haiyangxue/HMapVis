@@ -1,0 +1,6 @@
+受教育程度：
+<select id="education" class="txtInput" style="width:100%;">
+	{{#educations}}
+		<option value = "{{education_id}}">{{education_name}}</option>
+	{{/educations}}
+</select>

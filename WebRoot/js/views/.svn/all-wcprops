@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views
+END
+userEditPlaceView.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/userEditPlaceView.js
+END
+addPeopleView.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/addPeopleView.js
+END
+heatMapView.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MapVis/!svn/ver/427/HMapVis_0.2/WebRoot/js/views/heatMapView.js
+END
+editMapEventView.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/editMapEventView.js
+END
+userEditEventView.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/userEditEventView.js
+END
+SearchPlaceView.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/SearchPlaceView.js
+END
+addRelationEventView.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/addRelationEventView.js
+END
+userPlaceView.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/userPlaceView.js
+END
+relationView.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/relationView.js
+END
+resultListView.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/resultListView.js
+END
+userPeopleView.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/userPeopleView.js
+END
+filterView.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/filterView.js
+END
+event.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MapVis/!svn/ver/379/HMapVis_0.2/WebRoot/js/views/event.js
+END
+eventTypeListView.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/eventTypeListView.js
+END
+searchplacesListView.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MapVis/!svn/ver/427/HMapVis_0.2/WebRoot/js/views/searchplacesListView.js
+END
+queryEventView.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/queryEventView.js
+END
+userEventView.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/userEventView.js
+END
+eventTypeShowListView.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/eventTypeShowListView.js
+END
+heatMapEventView.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/heatMapEventView.js
+END
+dynastyListView.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/dynastyListView.js
+END
+showPeopleView.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/showPeopleView.js
+END
+userView.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/userView.js
+END
+addTrackView.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/addTrackView.js
+END
+showReEventView.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MapVis/!svn/ver/427/HMapVis_0.2/WebRoot/js/views/showReEventView.js
+END
+showMapPlaceView.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MapVis/!svn/ver/427/HMapVis_0.2/WebRoot/js/views/showMapPlaceView.js
+END
+addPlaceView.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/addPlaceView.js
+END
+educationListView.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/educationListView.js
+END
+queryResultView.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MapVis/!svn/ver/403/HMapVis_0.2/WebRoot/js/views/queryResultView.js
+END
+userEditPeopleView.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/userEditPeopleView.js
+END
+placeShowListView.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/placeShowListView.js
+END
+showEventVideoView.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/showEventVideoView.js
+END
+showMapEventView.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/showMapEventView.js
+END
+addMapView.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/addMapView.js
+END
+jobListView.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/jobListView.js
+END
+addEventView.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MapVis/!svn/ver/427/HMapVis_0.2/WebRoot/js/views/addEventView.js
+END
+editMapPlaceView.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MapVis/!svn/ver/428/HMapVis_0.2/WebRoot/js/views/editMapPlaceView.js
+END
+DrawLine.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MapVis/!svn/ver/427/HMapVis_0.2/WebRoot/js/views/DrawLine.js
+END

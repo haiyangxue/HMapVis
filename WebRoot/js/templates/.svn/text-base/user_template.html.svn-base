@@ -1,0 +1,13 @@
+
+<div class="box">
+用户名：{{user_name}}			
+</div> 
+<div class="box">
+上传事件数：{{event_count}}
+</div>
+<div class="box">
+上传地点数：{{map_count}}
+</div>
+<div class="box">
+上传人物数：{{people_count}}
+</div>

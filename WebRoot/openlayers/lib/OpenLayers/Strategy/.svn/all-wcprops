@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Strategy
+END
+Fixed.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Strategy/Fixed.js
+END
+Save.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Strategy/Save.js
+END
+Paging.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Strategy/Paging.js
+END
+Refresh.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Strategy/Refresh.js
+END
+Cluster.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Strategy/Cluster.js
+END
+BBOX.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Strategy/BBOX.js
+END
+Filter.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Strategy/Filter.js
+END

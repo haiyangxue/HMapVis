@@ -1,0 +1,73 @@
+<div class="wrapper">
+	<div class="title">
+		<h1>添加历史人物</h1>
+	</div>			
+	<div class="add-content">
+		<div class="box">
+		    <img src="images/loading.gif" id="loading" style="display: none;"></img>
+			<input type="file" id="file" name="file" /><br />
+			<input type="button" id="upload" value="上传" class="buttonInput" style="width:100%;" /><br/>
+			<input type="button" id="reupload" value="重新上传" class="buttonInput" style="width:100%;display: none;" /><br/>
+		</div>
+		<div class="box">
+			人物名称：
+			<input type="text" id="people_name" class="txtInput" style="width:100%;"></input>
+		</div>
+		
+		<div class="box">
+			字
+			<input type="text" id="people_character" class="txtInput" style="width:100%;"></input>
+		</div>
+		
+		<div class="box">
+			谥号
+			<input type="text" id="temple_title" class="txtInput" style="width:100%;"></input>
+		</div>
+		
+		<div class="box" id="jl">
+							
+		</div>
+		
+		<div class="box" id="dl">
+			
+		</div>
+		
+		<div class="box" id="el">
+			
+		</div>
+	
+		<div class="box">
+		               出生地点：<br/>
+			<input type="text" id="people_loc" class="txtInput" style="width:70%; float:left;"></input>
+			<input type="button" id="getLocFromMap" class="buttonInput" value="获取坐标" style="width:29%; float:left; margin-left:1%;margin-top:5px;"></input>
+			<input type="button" id="sureLocFromMap" class="buttonInput" value="确定坐标" style="width:29%; float:left; margin-left:1%;margin-top:5px;display:none"></input><br /><br /><br />
+		</div>
+		
+		<div class="box">
+			出生时间：
+			<input id="startTime" class="txtInput" type="text" onfocus="onTimeStartfocus('startTime')" onblur="onTimeStartBlur('startTime')" style="width:100%;" />
+			去世时间：
+			<input id="endtime" class="txtInput" type="text" onfocus="onTimeStartfocus('endtime')" onblur="onTimeStartBlur('endtime')" style="width:100%;" />
+		</div>
+		
+		<div class="box">
+			基本信息：<input type="text" id="people_summary" class="txtInput" style="width:100%;"></input>
+		</div>
+		
+		<div class="box">
+			详细介绍：<input type="text" id="people_detail" class="txtInput" style="width:100%;"></input>
+		</div>
+		
+		<div class="box">
+			人物影响：<input type="text" id="people_influ" class="txtInput" style="width:100%;"></input>
+		</div>
+		
+		<div class="box">
+			参与事件：
+			<input type="text" id="event_id" class="txtInput" style="width:100%;"></input>
+		</div>
+		
+		<input type="button" id="people_submit" class="buttonInput" style="margin-top:10px; width:100%;" value="提交"></input>
+		<input type="button" id="people_cancel" class="buttonInput" style="margin-top:10px; width:100%;" value="取消"></input>
+	</div>
+</div>

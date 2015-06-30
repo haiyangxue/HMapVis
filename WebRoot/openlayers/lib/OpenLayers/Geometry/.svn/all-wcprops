@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Geometry
+END
+MultiPoint.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Geometry/MultiPoint.js
+END
+LineString.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Geometry/LineString.js
+END
+LinearRing.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Geometry/LinearRing.js
+END
+MultiPolygon.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Geometry/MultiPolygon.js
+END
+Point.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Geometry/Point.js
+END
+Curve.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Geometry/Curve.js
+END
+Collection.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Geometry/Collection.js
+END
+MultiLineString.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Geometry/MultiLineString.js
+END
+Polygon.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Geometry/Polygon.js
+END

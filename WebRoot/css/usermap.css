@@ -1,0 +1,42 @@
+#usermap{
+	position:absolute;
+	padding:5px;
+	left:300px; 
+	border-style:solid;
+	border-width:2px;
+	border-color:gray;
+	opacity:0.6;
+	z-index:9999;
+}
+#scale{
+	width:15px;
+	height:15px;
+	background:gray;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	cursor:nw-resize;
+	overflow:hidden;
+	font-size:12px;
+	text-align:center;
+	line-height:15px;
+	color:white;
+	float:right;
+	z-index:3;
+}
+#translate{
+	width:15px;
+	height:15px;
+	background:gray;
+	position:absolute;
+	left:20px;
+	top:20px;
+	cursor:move;
+	overflow:hidden;
+	font-size:12px;
+	text-align:center;
+	line-height:15px;
+	color:white;
+	float:right;
+	z-index:3;
+}

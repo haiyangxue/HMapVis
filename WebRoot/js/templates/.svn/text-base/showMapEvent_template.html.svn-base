@@ -1,0 +1,17 @@
+<div id="showmapevent">
+	<!-- <ul>
+	<li id="eventName">{{event_name}}</li>
+	<li id="people">{{people}}</li>
+	<li id="place_name">{{place_name}}</li>
+	</ul> -->
+	<div style="width:80%; height:100%; text-align:center; padding-left:10%; padding-right:10%;">
+		<h2 id="eventName" style="margin-bottom:10px;">{{event_name}}</h2>
+		<p style="margin:5px; font-size: 10px;">参与者：{{people}}</p>
+		<p style="margin:5px; font-size: 10px;">地点名：{{place_name}}</p>
+		<p id="dynasty_id" style="margin:5px; font-size: 10px;display:none;">{{dyansty_id}}</p>
+		<p id="type_id" style="margin:5px; font-size: 10px; display:none;">{{type_id}}</p>
+		<button id="eventVideo" class="eventVideo" eventvideo={{event_video}}>相关视频</button>
+	</div>
+	<button id="showDetail" class="eventEdit" event={{event_id}}>编辑</button>
+	<button id="closePopup" class="eventClose" eid={{event_id}}>关闭</button>
+</div>

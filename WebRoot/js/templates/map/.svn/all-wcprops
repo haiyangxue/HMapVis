@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/MapVis/!svn/ver/422/HMapVis_0.2/WebRoot/js/templates/map
+END
+editMapEvent_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/319/HMapVis_0.2/WebRoot/js/templates/map/editMapEvent_template.html
+END
+showMapEvent_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/422/HMapVis_0.2/WebRoot/js/templates/map/showMapEvent_template.html
+END

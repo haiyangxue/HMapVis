@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Symbolizer
+END
+Line.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Symbolizer/Line.js
+END
+Point.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Symbolizer/Point.js
+END
+Raster.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Symbolizer/Raster.js
+END
+Text.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Symbolizer/Text.js
+END
+Polygon.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Symbolizer/Polygon.js
+END

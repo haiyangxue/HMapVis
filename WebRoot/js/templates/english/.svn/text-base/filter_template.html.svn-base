@@ -1,0 +1,45 @@
+<div class="wrapper">
+	<div class="title">
+    	<h1>中国历史地图查询</h1>
+    </div>
+	<div class="add-content">
+		<div class="box">
+			<b>人物姓名：</b><br />
+			<input id="peopleName" class="txtInput" type="text" style="width:100%;">
+		</div>
+		<br />
+		
+		<div class="box">
+			时间范围：<br /> 
+			<input type="text" id="event_start" class="txtInput" value="开始时间" onfocus="onTimeStartfocus('event_start')" onblur="onTimeStartBlur('event_start')" style="float:left; width:49%;"></input> 
+			<span style="float:left; margin-top:12px; width:2%;">&nbsp-&nbsp</span> 
+			<input type="text" id="event_end" class="txtInput" value="结束时间" onfocus="onTimeEndfocus('event_end')" onblur="onTimeEndBlur('event_end')" style="float:left; width:49%;"></input><br />
+		</div>
+		
+		<div class="box" id="jl">
+							
+		</div>
+		
+		<div class="box" id="dl">
+			
+		</div>
+		
+		<div class="box" id="el">
+			
+		</div>
+		
+		<div class="box">
+			<b>人物轨迹：</b><br />
+			<input id="people_name" class="txtInput" type="text" style="width:100%;" />
+			<input type="button" id="show_track" class="buttonInput" style="margin-top:10px; width:40%;" value="show" onclick="peopletrack()"></input>
+		    <input type="button" id="draw_track" class="buttonInput" style="margin-top:10px; width:40%;margin-left: 20px;" value="draw" onclick="drawLine()"></input>
+		</div>
+		<br />
+		
+		<div id="type">
+			
+		</div>
+		<input type="button" id="query_submit" class="buttonInput" style="margin-top:10px; width:100%;" value="查询"></input>
+		<input type="button" id="query_cancel" class="buttonInput" style="margin-top:10px; width:100%;" value="取消"></input>
+	</div>
+</div>

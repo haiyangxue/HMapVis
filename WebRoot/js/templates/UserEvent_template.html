@@ -1,0 +1,45 @@
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<div class="main">
+<ul id="eventList" class="cbp_tmtimeline">
+{{#events}}
+<li><!-- <time class="cbp_tmtime" datetime="2013-04-10 18:30">
+		<span>4/10/13</span> <span>18:30</span>
+	</time> -->
+	<div class="cbp_tmicon cbp_tmicon-phone">
+
+		<a id="tag"><img src="css/images/file_edit.png"
+			style="width:60%; height:60%; margin-top:5px;" event_id={{event_id}}> </a>
+	</div>
+	<div class="cbp_tmlabel">
+		<h2 id="eventName">{{event_name}}</h2>
+		<p>
+			<span style="width:100px;background:#007acd;">时间：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>&nbsp&nbsp{{start_date}}
+			~ {{end_date}}
+		</p>
+		<p style="background:#3f3f3f;">
+			<font style="background:#007acd;">事件发生地点：</font>&nbsp&nbsp{{place_name}}(古)&nbsp&nbsp&nbsp&nbsp{{now_name}}(今)
+		</p>
+		<p>
+			<font style="background:#007acd;">事件涉及人物：</font>&nbsp&nbsp{{people}}
+		</p>
+		<p style="background:#3f3f3f;">
+			<font style="background:#007acd;">事件内容：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp{{summary}}
+		</p>
+		<p>
+			<font style="background:#007acd;">事件影响：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp{{influ}}
+		</p>
+	</div>
+</li>
+{{/events}}
+</ul>
+      <div class="page_btn">
+				<div class="page_box">
+					<a id="prev" class="prev" style="display:none" ><img src="css/images/up1.png" name="pre" style="width:80%; margin:0 auto;"  /></a><br/><br/><hr/>
+					<span class="num">
+						<span id="current_page" class="current_page">1</span>&nbsp<span style="padding:0 3px;">/</span>&nbsp<span id="total_page" class="total"></span>
+					</span><br/><hr/><br/>
+					<a id="next" class="next" ><img src="css/images/down1.png" name="nex" style="width:80%; margin:0 auto;" /></a>
+				</div>
+			</div>
+</div>

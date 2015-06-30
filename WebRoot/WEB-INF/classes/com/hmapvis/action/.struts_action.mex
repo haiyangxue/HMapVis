@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="jsp" location="250,173" size="280,315">
+    <action name="page_*" location="66,51" size="150,125">
+      <result name="go_addevent">
+        <resourceEdge source="go_addevent" routing="0" target="addevent.jsp" />
+      </result>
+      <result name="go_filter">
+        <resourceEdge source="go_filter" routing="0" target="filter.jsp" />
+      </result>
+      <result name="go_addplace">
+        <resourceEdge source="go_addplace" routing="0" target="addplace.jsp" />
+      </result>
+      <result name="go_addmap">
+        <resourceEdge source="go_addmap" routing="0" target="addmap.jsp" />
+      </result>
+      <result name="go_nomevote">
+        <resourceEdge source="go_nomevote" routing="0" target="namevote.jsp" />
+      </result>
+    </action>
+  </package>
+  <package name="json" location="16,714" size="670,512">
+    <action name="fileUpload" location="261,269" size="150,62">
+      <result name="success" />
+      <result name="error" />
+    </action>
+    <action name="admin_*" location="506,269" size="150,62">
+      <result name="success" />
+      <result name="error" />
+    </action>
+    <action name="user_*" location="16,52" size="150,146">
+      <result name="success" />
+      <result name="userLogin" />
+      <result name="space" />
+      <result name="fail" />
+      <result name="user_exist" />
+      <result name="userExit" />
+    </action>
+    <action name="place_*" location="261,38" size="150,104">
+      <result name="addplace_success" />
+      <result name="addplace_error" />
+      <result name="success" />
+      <result name="error" />
+    </action>
+    <action name="event_*" location="16,444" size="150,62">
+      <result name="success" />
+      <result name="error" />
+    </action>
+    <action name="map_*" location="506,38" size="150,104">
+      <result name="addmap_success" />
+      <result name="addmap_error" />
+      <result name="success" />
+      <result name="error" />
+    </action>
+    <action name="namevote_*" location="16,293" size="150,83">
+      <result name="success" />
+      <result name="fail" />
+      <result name="update" />
+    </action>
+  </package>
+  <webResource name="addevent.jsp" path="/jsp/addevent.jsp" location="10,395" size="150,55" />
+  <webResource name="filter.jsp" path="/filter.jsp" location="5,211" size="150,55" />
+  <webResource name="addplace.jsp" path="/jsp/addplace.jsp" location="255,10" size="150,55" />
+  <webResource name="addmap.jsp" path="/jsp/addmap.jsp" location="563,220" size="150,55" />
+  <webResource name="namevote.jsp" path="/namevote.jsp" location="265,535" size="150,55" />
+</Struts2Diagram>
+

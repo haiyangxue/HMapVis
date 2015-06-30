@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer
+END
+WMTS.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/WMTS.js
+END
+ArcGIS93Rest.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/ArcGIS93Rest.js
+END
+Text.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/Text.js
+END
+Grid.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/Grid.js
+END
+ArcGISCache.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/ArcGISCache.js
+END
+Bing.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/Bing.js
+END
+MapGuide.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/MapGuide.js
+END
+WMS.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/WMS.js
+END
+ArcIMS.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/ArcIMS.js
+END
+KaMapCache.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/KaMapCache.js
+END
+PointTrack.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/PointTrack.js
+END
+Image.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/Image.js
+END
+WorldWind.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/WorldWind.js
+END
+XYZ.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/XYZ.js
+END
+FixedZoomLevels.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/FixedZoomLevels.js
+END
+PointGrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/PointGrid.js
+END
+TileCache.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/TileCache.js
+END
+UTFGrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/UTFGrid.js
+END
+OSM.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/OSM.js
+END
+Zoomify.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/Zoomify.js
+END
+HTTPRequest.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/HTTPRequest.js
+END
+KaMap.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/KaMap.js
+END
+Vector.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/Vector.js
+END
+EventPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/EventPane.js
+END
+GeoRSS.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/GeoRSS.js
+END
+MapServer.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/MapServer.js
+END
+SphericalMercator.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/SphericalMercator.js
+END
+TMS.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/TMS.js
+END
+Boxes.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/Boxes.js
+END
+Markers.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/Markers.js
+END
+Google.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Layer/Google.js
+END

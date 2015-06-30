@@ -1,0 +1,8 @@
+结果列表：
+<div class="result-content" id="show_rl" style="overflow: scroll;">
+<form id="eventShowList">	
+	{{#eventlist}}
+		<input type="radio" name="radio" value="{{event_id}}" />{{event_name}}<br>
+	{{/eventlist}}
+</form>
+</div>

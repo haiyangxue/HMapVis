@@ -1,0 +1,143 @@
+<style type="text/css">
+	div#dragWrap{
+		position:absolute;
+		top:50px;
+		left:50px;
+		width:500px;
+		height:500px;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		line-height:30px;
+		background-color:#007acd;
+		text-align:center;
+		color:white;
+		cursor:default;
+		z-index:999999;
+		-moz-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.8); 
+		-webkit-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.8); 
+		box-shadow:0px 0px 10px rgba(0, 0, 0, 0.8);
+	}
+	div#dragPart{
+		position:absolute;
+		top:0px;
+		left:200px;
+		font-size:15px;
+		font-weight:bold;
+		color: #007acd;
+		background: white;
+		width: 100px;
+		height: 100px;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+	}
+	div#dragPart p{
+		margin-top:-6px;
+	}
+	div#pointerLeft, div#pointerRight{
+		position:absolute;
+		top:238px;
+		font-size:24px;
+		font-weight:bold;
+		color: #007acd;
+		background: white;
+		width: 40px;
+		height: 40px;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+	}
+	div#pointerLeft p, div#pointerRight p{
+		margin-top: 3px;
+	}
+	div#pointerLeft p{
+		margin-left: -15px;
+	}
+	div#pointerRight p{
+		margin-right: -15px;
+	}
+	div#pointerLeft{
+		left:0px;
+	}
+	div#pointerRight{
+		right:0px;
+	}
+	div#dragContent{
+		position:absolute;
+		top:4%;
+		left:4%;
+		width:92%;
+		height:92%;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		line-height:30px;
+		/*background-color:#fff;*/
+		background:url("images/dragBG.jpg");
+		text-align:center;
+		color:black;
+		cursor:default;
+		z-index:999999;
+		-moz-box-shadow:0px 0px 15px rgba(0, 0, 0, 1); 
+		-webkit-box-shadow:0px 0px 15px rgba(0, 0, 0, 1); 
+		box-shadow:0px 0px 15px rgba(0, 0, 0, 1);
+	}
+	
+	div#recover, div#close{
+		position:absolute;
+		top:0px;
+		font-size:20px;
+		font-weight:bold;
+		color: #007acd;
+		background: white;
+		width: 30px;
+		height: 30px;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		display: none;
+	}
+	div#recover{
+		left: -10px;
+	}
+	div#close{
+		right: -10px;
+	}
+	div#recover p, div#close p{
+		margin-top: 0px;
+	}
+	div#recover p{
+		margin-left: 0px;
+	}
+	div#close p{
+		margin-right: 0px;
+	}
+	p#title{
+		display:none;
+		font-weight: bold;
+		color: #007acd;
+		line-height:25px;
+	}
+	
+</style>
+<div id="dragWrap">
+	<div id="dragPart">
+		<p>...
+	</div>
+	<div id="pointerLeft">
+		<p>>
+	</div>
+	<div id="pointerRight">
+		<p><
+	</div>
+	<div id="recover">
+		<p>O
+	</div>
+	<div id="close">
+		<p>X
+	</div>
+	<div id="dragContent">
+		<p id="title">People Relation</p>
+	</div>
+</div>

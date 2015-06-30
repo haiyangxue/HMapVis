@@ -1,0 +1,27 @@
+<!-- 
+<div class="filter_header">人物查询</div>
+	<div class="filter_body">
+		<div class="filter_content">
+			{{#queryresult}}
+					<div class="filter_content_value"> 
+ 				<input type="button" name="checkbox" value="{{people_name}}" id="{{people_id}}" onclick="searchPeople('{{people_id}}')">				
+							<table for="{{people_id}}">{{people_influ}}</table>
+						</input>
+					</div>
+			{{/queryresult}}
+		</div>
+	</div>
+</div>
+ -->
+	<br/>
+	<br/><h2>历史人物查询</h2>
+<div id="peopleShowList_2"  class="txtInput" style="width:100%;overflow:scroll">
+<form id="peopleShowList_3" action="" method="">
+	{{#queryresult}}
+		<input type="radio"  name= "radio" value = "{{people_id}}">{{people_name}}({{people_influ}})</input>
+		<br/>
+	{{/queryresult}}
+	</form>
+	<br/>
+	<br/>
+</div>

@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MapVis/!svn/ver/425/HMapVis_0.2/src/com/hmapvis/service/impl
+END
+PlaceServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MapVis/!svn/ver/407/HMapVis_0.2/src/com/hmapvis/service/impl/PlaceServiceImpl.java
+END
+EducationServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/src/com/hmapvis/service/impl/EducationServiceImpl.java
+END
+PeopleTypeServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/src/com/hmapvis/service/impl/PeopleTypeServiceImpl.java
+END
+ShowplaceServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/389/HMapVis_0.2/src/com/hmapvis/service/impl/ShowplaceServiceImpl.java
+END
+PeopleEventServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/src/com/hmapvis/service/impl/PeopleEventServiceImpl.java
+END
+TrackServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MapVis/!svn/ver/400/HMapVis_0.2/src/com/hmapvis/service/impl/TrackServiceImpl.java
+END
+UserServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/src/com/hmapvis/service/impl/UserServiceImpl.java
+END
+HeatMapServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/399/HMapVis_0.2/src/com/hmapvis/service/impl/HeatMapServiceImpl.java
+END
+PeopleJobServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/304/HMapVis_0.2/src/com/hmapvis/service/impl/PeopleJobServiceImpl.java
+END
+PeopleServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/422/HMapVis_0.2/src/com/hmapvis/service/impl/PeopleServiceImpl.java
+END
+AdminServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/src/com/hmapvis/service/impl/AdminServiceImpl.java
+END
+DynastyServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/src/com/hmapvis/service/impl/DynastyServiceImpl.java
+END
+BaseServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MapVis/!svn/ver/425/HMapVis_0.2/src/com/hmapvis/service/impl/BaseServiceImpl.java
+END
+BuildingServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/src/com/hmapvis/service/impl/BuildingServiceImpl.java
+END
+EventTypeServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/src/com/hmapvis/service/impl/EventTypeServiceImpl.java
+END
+NameVoteServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/src/com/hmapvis/service/impl/NameVoteServiceImpl.java
+END
+RelationTypeServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/src/com/hmapvis/service/impl/RelationTypeServiceImpl.java
+END
+EventServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MapVis/!svn/ver/422/HMapVis_0.2/src/com/hmapvis/service/impl/EventServiceImpl.java
+END
+VoteRecordServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/src/com/hmapvis/service/impl/VoteRecordServiceImpl.java
+END
+MapServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MapVis/!svn/ver/422/HMapVis_0.2/src/com/hmapvis/service/impl/MapServiceImpl.java
+END
+JobServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/src/com/hmapvis/service/impl/JobServiceImpl.java
+END
+SearchplaceServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MapVis/!svn/ver/407/HMapVis_0.2/src/com/hmapvis/service/impl/SearchplaceServiceImpl.java
+END
+PeopleRealtionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MapVis/!svn/ver/398/HMapVis_0.2/src/com/hmapvis/service/impl/PeopleRealtionServiceImpl.java
+END
+EventRelaServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/422/HMapVis_0.2/src/com/hmapvis/service/impl/EventRelaServiceImpl.java
+END

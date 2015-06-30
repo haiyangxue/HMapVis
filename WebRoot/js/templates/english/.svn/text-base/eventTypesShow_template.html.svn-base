@@ -1,0 +1,13 @@
+<div class="filter_header">类型Type</div>
+	<div class="filter_body">
+		<div class="filter_content">
+			{{#eventTypes}}
+					<div class="filter_content_value"> 
+						<input type="checkbox" name="checkbox" value="{{type_name}}" id="{{type_id}}" onclick="checkCheckBox('checkbox')">										
+							<label for="{{type_id}}">{{type_name}}</label>
+						</input>
+					</div>
+			{{/eventTypes}}
+		</div>
+	</div>
+</div>

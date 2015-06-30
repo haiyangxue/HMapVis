@@ -1,0 +1,27 @@
+body{
+	margin:0px ! important;
+	background:#d7d6d6;
+}
+div.filter_header {
+	font-weight: bold;
+	padding-left: 5px;
+ 	color: #523015;
+    background-color: #d7d6d6;
+}
+div.filter_body {
+ 	clear: both
+}
+div.filter_content {
+	padding-left:30px;
+    background-color: #E3E6EC;
+    border: 1px solid #B8B8BB;
+    overflow:auto;
+}
+div.filter_content_value {
+    cursor: pointer;
+    padding: 2px 0px;
+    clear: both;
+}
+a.filter_content_value_link {
+	text-decoration: none;
+}

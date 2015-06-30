@@ -1,0 +1,35 @@
+<!-- 本模板仅作为测试单个事件显示使用，过后要删除 -->
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<div class="main">
+<ul id="eventList" class="cbp_tmtimeline">
+<li><time class="cbp_tmtime" datetime="2013-04-10 18:30">
+		<span>4/10/13</span> <span>18:30</span>
+	</time>
+	<div class="cbp_tmicon cbp_tmicon-phone">
+
+		<a><img src="css/images/file_edit.png"
+			style="width:60%; height:60%; margin-top:5px;"> </a>
+	</div>
+	<div class="cbp_tmlabel">
+		<h2 id="eventName">{{event_name}}</h2>
+		<p>
+			<span style="width:100px;background:#007acd;">时间：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>&nbsp&nbsp{{start_date}}
+			~ {{end_date}}
+		</p>
+		<p style="background:#3f3f3f;">
+			<font style="background:#007acd;">事件发生地点：</font>&nbsp&nbsp{{place_name}}(古)&nbsp&nbsp&nbsp&nbsp{{now_name}}(今)
+		</p>
+		<p>
+			<font style="background:#007acd;">事件涉及人物：</font>&nbsp&nbsp{{people}}
+		</p>
+		<p style="background:#3f3f3f;">
+			<font style="background:#007acd;">事件内容：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp{{summary}}
+		</p>
+		<p>
+			<font style="background:#007acd;">事件影响：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp{{influ}}
+		</p>
+	</div>
+</li>
+</ul>
+</div>

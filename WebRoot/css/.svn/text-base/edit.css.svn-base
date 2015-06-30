@@ -1,0 +1,59 @@
+.limiter{
+	position:relative;
+	max-width:1200px;
+}
+.button-wrap {
+	display: inline-block;
+	padding-right: 10px;
+	margin: 0;
+}
+.col3 {
+	float: left;
+	width: 25.0000%;
+	max-width: 300px;
+}
+.col4 {
+	float: left;
+	width: 33.3333%;
+	max-width: 100px;
+}
+.joined button:first-child {
+	border-radius: 4px 0 0 4px;
+}
+.joined button {
+	border-radius: 0;
+	border-right: 1px solid rgba(0,0,0,0.5);
+}
+button.active {
+	background: #7092ff;
+}
+.icon.add-point {
+	background-position: -20px 0;
+}
+.icon-pre-text {
+	margin-right: 3px;
+}
+.icon {
+	display: inline-block;
+	vertical-align: top;
+	width: 20px;
+	height: 20px;
+	background: transparent url(../images/test.svg) no-repeat 0 0;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+button {
+	text-align: center;
+	line-height: 20px;
+	border: 0;
+	background: #7092ff;
+	font-weight: bold;
+	color: #333;
+	font-size: 12px;
+	display: inline-block;
+	height: 40px;
+	border-radius: 4px;
+	-moz-transition: all 100ms;
+	-o-transition: all 100ms;
+	transition: all 100ms;
+}

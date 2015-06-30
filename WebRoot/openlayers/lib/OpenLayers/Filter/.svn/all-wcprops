@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Filter
+END
+Spatial.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Filter/Spatial.js
+END
+FeatureId.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Filter/FeatureId.js
+END
+Comparison.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Filter/Comparison.js
+END
+Logical.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Filter/Logical.js
+END
+Function.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Filter/Function.js
+END

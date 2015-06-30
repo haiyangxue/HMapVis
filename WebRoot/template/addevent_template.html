@@ -1,0 +1,60 @@
+<div class="wrapper">
+	<div class="title">
+		<h1>添加历史事件</h1>
+	</div>
+	<div class="add-content">
+		<div class="box">
+			事件名称： <input type="text" id="event_name" class="txtInput"
+				style="width:100%;"></input>
+		</div>
+		<div class="box">
+		
+		</div>
+		<div class="box">
+			
+		</div>
+		<div class="box">
+			发生地点：<br /> <input type="text" id="event_loc" class="txtInput"
+				style="width:70%; float:left;"></input> <input type="button"
+				id="getLocFromMap" class="buttonInput" value="获取坐标"
+				style="width:29%; float:left; margin-left:1%;margin-top:5px;"
+				onclick="getLonLat();"></input> <input type="button"
+				id="sureLocFromMap" class="buttonInput" value="确定坐标"
+				style="width:29%; float:left; margin-left:1%;margin-top:5px;display:none"
+				onclick="sureLonLat();"></input><br />
+			<br />
+			<br />
+		</div>
+
+		<div class="box">
+			时间范围：<br /> <input type="text" id="place_start" class="txtInput"
+				value="开始时间" onfocus="onTimeStartfocus('place_start')"
+				onblur="onTimeStartBlur('place_start')"
+				style="float:left; width:49%;"></input> <span
+				style="float:left; margin-top:12px; width:2%;">&nbsp-&nbsp</span> <input
+				type="text" id="place_end" class="txtInput" value="结束时间"
+				onfocus="onTimeEndfocus('place_end')"
+				onblur="onTimeEndBlur('place_end')" style="float:left; width:49%;"></input><br />
+		</div>
+		<!-- 后期可从数据库中查询，让用户选择 -->
+		<div class="box">
+			参与人物： <input type="text" id="event_people" class="txtInput"
+				style="width:100%;"></input>
+		</div>
+		<div class="box">
+			事件影响：<input type="text" id="event_infu" class="txtInput"
+				style="width:100%;"></input>
+		</div>
+		<div class="box">
+			基本信息：<input type="text" id="event_summary" class="txtInput"
+				style="width:100%;"></input>
+		</div>
+		<div clas="box">
+			详细介绍：<input type="text" id="event_detail" class="txtInput"
+				style="width:100%;"></input>
+		</div>
+		<input type="button" id="place_submit" class="buttonInput"
+			style="margin-top:10px; width:100%;" value="提交" onclick="addevent();"></input>
+
+	</div>
+</div>

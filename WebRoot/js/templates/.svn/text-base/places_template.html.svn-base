@@ -1,0 +1,6 @@
+发生地点：<br /> 
+<select id="showplace" class="txtInput" style="width:100%;">
+	{{#showplaces}}
+		<option value = "{{place_id}}">{{place_name}}</option>
+	{{/showplaces}}
+</select>

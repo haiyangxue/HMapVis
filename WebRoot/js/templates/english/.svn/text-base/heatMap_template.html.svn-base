@@ -1,0 +1,15 @@
+<div id="wrap" class="wrapper">
+	<div class="title">
+    	<h1>朝代热度</h1>
+    </div>			
+	<div class="add-content">
+	<input type="button" id="heatMapShow_All" class="buttonInput" style="margin-left:1.5%; margin-top:10px; width:97%;" value="显示所有朝代"></input><br />
+	
+		
+		<div class="box" id="dl">
+		
+		</div>
+		<input type="button" id="heatMapShow" class="buttonInput" style="margin-left:1.5%; margin-top:10px; width:97%;" value="确定"></input><br />
+		<input type="button" id="close" class="buttonInput" style="margin-left:1.5%; margin-top:10px; width:97%;" value="取消"></input><br />
+	</div>
+</div>

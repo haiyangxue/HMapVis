@@ -1,0 +1,236 @@
+body {	
+    color:#222;
+    /*background-color: #ff6833;*/
+    background-color: #007acd;
+    font-family:微软雅黑;
+    margin:0px ! important;
+}
+
+.header {
+	height:50px;
+	width:100%;
+	background:#007acd;
+}
+.tool{
+	float:right;
+	margin-right:50px;
+}
+.toolbar{
+	float:left;
+}
+.tool li, .toolbar li{
+	margin-right:10px;
+	margin-top:-5px;
+	padding:5px;
+	float:left;	
+	list-style-type:none;
+}
+.tool li{
+	width: 140px;
+}
+.tool li a {
+	margin-right: 55px;
+}
+.tool li:hover, .toolbar li:hover{
+	background:#81bff2;
+}
+.tool a, .toolbar a{
+	float:right;
+	font-family:微软雅黑;	
+	text-decoration:none;
+	color:white;
+}
+
+.tool ul ul, .toolbar ul ul {
+    visibility:hidden;
+    position:absolute;
+    /*right:50px;*/
+    top:47px;
+    z-index:999999;
+}
+.tool ul ul {
+	right: 210px;
+}
+.toolbar ul ul {
+	left: 336px;
+}
+.tool ul li:hover ul.second, .toolbar ul li:hover ul.first{
+	visibility:visible;
+}
+.tool ul ul li, .toolbar ul ul li  {
+    clear:both;
+	background: #81bff2;
+	color: white;
+	padding:0px;
+}
+.tool ul ul li {
+  	width: 150px;
+  	height:50px;
+}
+.toolbar ul ul li {
+	width: 45px;
+	padding: 9px;
+	height: 40px;
+}
+.tool ul ul li a, .toolbar ul ul li a{
+  	width:100%;
+  	height:80%;
+  	margin-right: 0px;
+  	text-align:center;
+  	padding-top:10%
+}
+.tool ul ul li:hover, .toolbar ul ul li:hover{
+	background: white;
+}
+.tool ul ul a:hover, .toolbar ul ul a:hover {
+  	color: #81bff2;
+}
+#frame {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;    
+}
+
+#frame tr {
+    vertical-align: top;
+}
+
+#sidebar {
+	display:block ! important;
+    width: 1%;    
+    border:none;
+}
+#iframe{
+	width:100%;
+	min-width:277px;
+	height:100%;
+	display:none;
+}
+
+#heatMap{
+	position:absolute;
+	top:52px;
+	left:500px;
+	z-index:99999;
+	height:0px;
+	width:100px;
+	background:#fff;
+	-moz-box-shadow:2px 0px 3px rgba(0, 0, 0, 0.5); 
+	-webkit-box-shadow:2px 0px 3px rgba(0, 0, 0, 0.5); 
+	box-shadow:2px 0px 3px rgba(0, 0, 0, 0.5);
+	display:none;
+}
+
+#leftSideBar{
+	position:absolute;
+	top:52px;
+	left:0px;
+	z-index:9999;
+	height:100%;
+	background:#fff;
+	-moz-box-shadow:2px 0px 3px rgba(0, 0, 0, 0.5); 
+	-webkit-box-shadow:2px 0px 3px rgba(0, 0, 0, 0.5); 
+	box-shadow:2px 0px 3px rgba(0, 0, 0, 0.5);
+	display:none;
+}
+#rightSideBar{
+	position:absolute;
+	top:52px;
+	right:0px;
+	z-index:9999;
+	height:100%;
+	background:#fff;
+	-moz-box-shadow:-3px 0px 3px rgba(0, 0, 0, 0.3); 
+	-webkit-box-shadow:-3px 0px 3px rgba(0, 0, 0, 0.3); 
+	box-shadow:-3px 0px 3px rgba(0, 0, 0, 0.3);
+	display:none;
+	
+}
+/*下面是用户园地的信息栏*/
+#userdata{
+	position:absolute;
+	top:52px;
+	right:0px;
+	z-index:9999;
+	height:100%;
+	background:#fff;
+	-moz-box-shadow:2px 0px 3px rgba(0, 0, 0, 0.5); 
+	-webkit-box-shadow:2px 0px 3px rgba(0, 0, 0, 0.5); 
+	box-shadow:2px 0px 3px rgba(0, 0, 0, 0.5);
+	display:none;
+}
+#content {
+	width: 99%;
+	height: 100%;
+	padding: 0px;
+	background-color: #D8DADE;
+}
+
+#timeline {
+	width:100%;
+	height:300px;
+}
+
+#allmap {
+	width:100%;
+	height:550px;
+	margin: 2px;
+	margin-bottom:0px;
+    border: 1px solid #92d0e6;
+    border-bottom: 0px;
+
+}
+
+#map {
+	width:100%;
+	height:100%;
+}
+
+.txtInput{
+	display: block;
+	color:#bbb;
+	border: 0px !important;
+	border-bottom: 1px solid #DDDDDD !important;
+	background-color: white !important;
+	margin: 0 auto;		
+	font-size: 14px !important;
+	-moz-border-radius: 2px !important;
+	-ms-border-radius: 2px !important;
+	-o-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	border-radius: 2px !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+.buttonInput{	
+	background-color: #2f2f2f;
+	border: 1px solid #2f2f2f;
+	color: #f4f4f4;
+	text-shadow: none;
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family:微软雅黑;
+	font-weight: normal;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.circle {
+    background: none repeat scroll 0 0 #FF3300;
+    border-radius: 78.5px 78.5px 78.5px 78.5px;
+    color: #FFFFFF;
+    padding:44px 50px;
+    position: absolute;
+}
+
+#OpenLayers_Layer_Heatmap_90{
+	z-index:360 ! important;
+}

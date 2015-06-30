@@ -1,0 +1,12 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="test" extends="base_package" namespace="/action">
+		<action name="test_*" class="com.sswy.test.Upload" method="{1}">
+			<result name="toDoUpload">/WEB-INF/jsp/user_student/index.jsp</result>
+			
+		</action>
+		
+	</package>
+</struts>

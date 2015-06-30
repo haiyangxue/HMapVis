@@ -1,0 +1,45 @@
+
+{
+  "nodes":[
+    {"name":"Jack", "id":"a", "popid":"aa", "circleId":"aaa", "backId":"aaaa", "txtId":"aaaaa", "group":5, "img_url":"images/headTest/test1.jpg", "r":"40", "relation":["b","c","d","e"]},
+    {"name":"Bob", "id":"b", "popid":"bb", "circleId":"bbb", "backId":"bbbb", "txtId":"bbbbb", "group":5, "img_url":"images/headTest/test2.jpg", "r":"20", "relation":["f"]},
+    {"name":"John", "id":"c", "popid":"cc", "circleId":"ccc", "backId":"cccc", "txtId":"ccccc", "group":5, "img_url":"images/headTest/test3.jpg", "r":"30", "relation":["f", "k"]},
+    {"name":"Marry", "id":"d", "popid":"dd", "circleId":"ddd", "backId":"dddd", "txtId":"ddddd", "group":9, "img_url":"images/headTest/test4.jpg", "r":"20", "relation":["i", "l"]},
+    {"name":"Jack", "id":"e", "popid":"ee", "circleId":"eee", "backId":"eeee", "txtId":"eeeee", "group":4, "img_url":"images/headTest/test5.jpg", "r":"20", "relation":["j", "m"]},
+    
+    {"name":"Bob", "id":"f", "popid":"ff", "circleId":"fff", "backId":"ffff", "txtId":"fffff", "group":3, "img_url":"images/headTest/test1.jpg", "r":"40", "relation":["g", "h", "n", "o", "p"]},
+    {"name":"John", "id":"g", "popid":"gg", "circleId":"ggg", "backId":"gggg", "txtId":"ggggg", "group":11, "img_url":"images/headTest/test2.jpg", "r":"20", "relation":["i", "l", "m"]},
+    {"name":"Marry", "id":"h", "popid":"hh", "circleId":"hhh", "backId":"hhhh", "txtId":"hhhhh", "group":11, "img_url":"images/headTest/test3.jpg", "r":"20", "relation":["f"]},
+    {"name":"Cook", "id":"i", "popid":"ii", "circleId":"iii", "backId":"iiii", "txtId":"iiiii", "group":9, "img_url":"images/headTest/test4.jpg", "r":"10", "relation":["d", "g"]},
+    {"name":"Billy", "id":"j", "popid":"jj", "circleId":"jjj", "backId":"jjjj", "txtId":"jjjjj", "group":4, "img_url":"images/headTest/test5.jpg", "r":"10", "relation":["e"]},
+    
+    {"name":"Kitty", "id":"k", "popid":"kk", "circleId":"kkk", "backId":"kkkk", "txtId":"kkkkk", "group":3, "img_url":"images/headTest/test1.jpg", "r":"10", "relation":["c"]},
+    {"name":"Zed", "id":"l", "popid":"ll", "circleId":"lll", "backId":"llll", "txtId":"lllll", "group":9, "img_url":"images/headTest/test2.jpg", "r":"10", "relation":["d"]},
+    {"name":"Tom", "id":"m", "popid":"mm", "circleId":"mmm", "backId":"mmmm", "txtId":"mmmmm", "group":4, "img_url":"images/headTest/test3.jpg", "r":"10", "relation":["e", "g"]},
+    {"name":"Jerry", "id":"n", "popid":"nn", "circleId":"nnn", "backId":"nnnn", "txtId":"nnnnn", "group":11, "img_url":"images/headTest/test4.jpg", "r":"10", "relation":["f"]},
+    {"name":"Kate", "id":"o", "popid":"oo", "circleId":"ooo", "backId":"oooo", "txtId":"ooooo", "group":11, "img_url":"images/headTest/test5.jpg", "r":"10", "relation":["f"]},
+    
+    {"name":"Camy", "id":"p", "popid":"pp", "circleId":"ppp", "backId":"pppp", "txtId":"ppppp", "group":11, "img_url":"images/headTest/test1.jpg", "r":"10", "relation":["f"]}
+  ],
+  "links":[
+    {"source":0,"target":1,"value":3},
+    {"source":0,"target":2,"value":24},
+    {"source":0,"target":3,"value":30},
+    {"source":0,"target":4,"value":18},
+    {"source":1,"target":5,"value":3},
+    {"source":2,"target":5,"value":3},
+    {"source":2,"target":10,"value":3},
+    {"source":3,"target":8,"value":3},
+    {"source":3,"target":11,"value":6},
+    {"source":4,"target":9,"value":3},
+    {"source":4,"target":12,"value":3},
+    {"source":5,"target":13,"value":9},
+    {"source":5,"target":14,"value":9},
+    {"source":5,"target":15,"value":15},
+    {"source":5,"target":6,"value":3},
+    {"source":5,"target":7,"value":3},
+    {"source":6,"target":8,"value":3},
+    {"source":6,"target":11,"value":3},
+    {"source":6,"target":12,"value":3}
+  ]
+}

@@ -1,0 +1,66 @@
+div.olControlAttribution, div.olControlScaleLine {
+	font-family: Verdana;
+	font-size: 0.7em;
+	bottom: 20px;
+}
+
+.olControlTextButtonPanel.hpanel { 
+	top: 0px;
+	bottom: auto;
+	left: 150px;
+	right: auto;
+}
+
+.mapcontrolItemInactive:after,
+.mapcontrolItemActive:after {
+	content: "隐藏地图";
+}
+
+.eventcontrolItemInactive:after,
+.eventcontrolItemActive:after {
+	content: "隐藏事件";
+}
+
+.eventEdit {
+	width:35%; height:25px; position:absolute; top:135px; left:15%;
+	display: inline-block;
+	zoom: 1;
+	vertical-align: baseline;
+	outline: none;
+	cursor: pointer;	
+	text-align: center;		
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	color:white;
+	-webkit-border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+	border:1px solid #fff;   
+    border-collapse:collapse;
+    background:rgba(0, 0, 0, 0);
+}
+
+.eventClose{
+	width:35%; height:25px; position:absolute; top:135px; left:50%;
+	display: inline-block;
+	zoom: 1;
+	vertical-align: baseline;
+	outline: none;
+	cursor: pointer;	
+	text-align: center;		
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	color:white;
+	-webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0; 
+	border:1px solid #fff;   
+    border-collapse:collapse; 
+    border-left:none;
+    background:rgba(0, 0, 0, 0);
+}
+
+.eventEdit:hover, .eventClose:hover{
+	background: white;
+	color:#007acd;
+}

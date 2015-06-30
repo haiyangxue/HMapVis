@@ -1,0 +1,144 @@
+ <div class="main">
+		<ul id="peopleList" class="cbp_tmtimeline"><!-- 这是一个无序列表，元素类名是cbp_timeline -->
+		
+				<li>        <!-- 定义列表项目 -->
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<span>4/10/13</span> 
+							<span>18:30</span>
+						</time>
+						<div class="cbp_tmicon cbp_tmicon-phone">
+						  <a  id="tagA" data-id="{{people_id}}">
+						  <img src="css/images/file_edit.png" style="width:60%; height:60%; margin-top:5px;">
+						</a>
+						</div>
+						<div class="cbp_tmlabel"> 
+							<h2 id="peopleName"><%=people_name %></h2>
+							<p><font style="background:#007acd;">字：</font>&nbsp&nbsp<%=people_character %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">谥号：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=temple_title %></p>
+							<p><font style="background:#007acd;">人物类型：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_type %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">所属朝代：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=dynasty %></p>
+							<p><font style="background:#007acd;">职业：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=job%></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">受教育程度：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=education %></p>
+							<p><font style="background:#007acd;">出生地点：</font>&nbsp&nbsp<%=birthplace %></p>
+							<p style="background:#3f3f3f;"><span style="width:100px;background:#007acd;">时间范围：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>&nbsp&nbsp<%=birthday %> ~ <%=deathday %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">基本信息：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_summary %></p>
+							<p><font style="background:#007acd;">详细介绍：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_detail %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">人物影响：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_influ %></p>
+							<p><font style="background:#007acd;">参与事件：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=event_id %></p><!-- 这个肯定不是event_id -->
+						</div>
+				</li>
+			<li>        <!-- 定义列表项目 -->
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<span>4/10/13</span> 
+							<span>18:30</span>
+						</time>
+						<div class="cbp_tmicon cbp_tmicon-phone">
+						  <a  id="tagB" data-id="{{people_id}}">
+						  <img src="css/images/file_edit.png" style="width:60%; height:60%; margin-top:5px;">
+						</a>
+						</div>
+						<div class="cbp_tmlabel"> 
+							<h2 id="peopleName"><%=people_name %></h2>
+							<p><font style="background:#007acd;">字：</font>&nbsp&nbsp<%=people_character %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">谥号：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=temple_title %></p>
+							<p><font style="background:#007acd;">人物类型：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_type %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">所属朝代：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=dynasty %></p>
+							<p><font style="background:#007acd;">职业：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=job%></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">受教育程度：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=education %></p>
+							<p><font style="background:#007acd;">出生地点：</font>&nbsp&nbsp<%=birthplace %></p>
+							<p style="background:#3f3f3f;"><span style="width:100px;background:#007acd;">时间范围：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>&nbsp&nbsp<%=birthday %> ~ <%=deathday %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">基本信息：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_summary %></p>
+							<p><font style="background:#007acd;">详细介绍：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_detail %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">人物影响：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_influ %></p>
+							<p><font style="background:#007acd;">参与事件：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=event_id %></p><!-- 这个肯定不是event_id -->
+						</div>
+				</li>
+				<li>        <!-- 定义列表项目 -->
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<span>4/10/13</span> 
+							<span>18:30</span>
+						</time>
+						<div class="cbp_tmicon cbp_tmicon-phone">
+						  <a  id="tagC" data-id="{{people_id}}">
+						  <img src="css/images/file_edit.png" style="width:60%; height:60%; margin-top:5px;">
+						</a>
+						</div>
+						<div class="cbp_tmlabel"> 
+							<h2 id="peopleName"><%=people_name %></h2>
+							<p><font style="background:#007acd;">字：</font>&nbsp&nbsp<%=people_character %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">谥号：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=temple_title %></p>
+							<p><font style="background:#007acd;">人物类型：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_type %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">所属朝代：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=dynasty %></p>
+							<p><font style="background:#007acd;">职业：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=job%></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">受教育程度：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=education %></p>
+							<p><font style="background:#007acd;">出生地点：</font>&nbsp&nbsp<%=birthplace %></p>
+							<p style="background:#3f3f3f;"><span style="width:100px;background:#007acd;">时间范围：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>&nbsp&nbsp<%=birthday %> ~ <%=deathday %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">基本信息：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_summary %></p>
+							<p><font style="background:#007acd;">详细介绍：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_detail %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">人物影响：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_influ %></p>
+							<p><font style="background:#007acd;">参与事件：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=event_id %></p><!-- 这个肯定不是event_id -->
+						</div>
+				</li>
+				<li>        <!-- 定义列表项目 -->
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<span>4/10/13</span> 
+							<span>18:30</span>
+						</time>
+						<div class="cbp_tmicon cbp_tmicon-phone">
+						  <a  id="tagD" data-id="{{people_id}}">
+						  <img src="css/images/file_edit.png" style="width:60%; height:60%; margin-top:5px;">
+						</a>
+						</div>
+						<div class="cbp_tmlabel"> 
+							<h2 id="peopleName"><%=people_name %></h2>
+							<p><font style="background:#007acd;">字：</font>&nbsp&nbsp<%=people_character %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">谥号：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=temple_title %></p>
+							<p><font style="background:#007acd;">人物类型：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_type %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">所属朝代：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=dynasty %></p>
+							<p><font style="background:#007acd;">职业：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=job%></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">受教育程度：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=education %></p>
+							<p><font style="background:#007acd;">出生地点：</font>&nbsp&nbsp<%=birthplace %></p>
+							<p style="background:#3f3f3f;"><span style="width:100px;background:#007acd;">时间范围：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>&nbsp&nbsp<%=birthday %> ~ <%=deathday %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">基本信息：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_summary %></p>
+							<p><font style="background:#007acd;">详细介绍：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_detail %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">人物影响：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_influ %></p>
+							<p><font style="background:#007acd;">参与事件：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=event_id %></p><!-- 这个肯定不是event_id -->
+						</div>
+				</li>
+				<li>        <!-- 定义列表项目 -->
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<span>4/10/13</span> 
+							<span>18:30</span>
+						</time>
+						<div class="cbp_tmicon cbp_tmicon-phone">
+						  <a  id="taE" data-id="{{people_id}}">
+						  <img src="css/images/file_edit.png" style="width:60%; height:60%; margin-top:5px;">
+						</a>
+						</div>
+						<div class="cbp_tmlabel"> 
+							<h2 id="peopleName"><%=people_name %></h2>
+							<p><font style="background:#007acd;">字：</font>&nbsp&nbsp<%=people_character %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">谥号：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=temple_title %></p>
+							<p><font style="background:#007acd;">人物类型：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_type %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">所属朝代：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=dynasty %></p>
+							<p><font style="background:#007acd;">职业：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=job%></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">受教育程度：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=education %></p>
+							<p><font style="background:#007acd;">出生地点：</font>&nbsp&nbsp<%=birthplace %></p>
+							<p style="background:#3f3f3f;"><span style="width:100px;background:#007acd;">时间范围：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>&nbsp&nbsp<%=birthday %> ~ <%=deathday %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">基本信息：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_summary %></p>
+							<p><font style="background:#007acd;">详细介绍：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_detail %></p>
+							<p style="background:#3f3f3f;"><font style="background:#007acd;">人物影响：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=people_influ %></p>
+							<p><font style="background:#007acd;">参与事件：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</font>&nbsp&nbsp<%=event_id %></p><!-- 这个肯定不是event_id -->
+						</div>
+				</li>
+				</ul>
+		</div>
+			<div class="page_btn">
+				<div class="page_box">
+					<a id="prev" class="prev" style="display:none" ><img src="css/images/up1.png" name="pre" style="width:80%; margin:0 auto;" onmouseover="mouseoverUp()" onmouseout="mouseoutUp()" /></a><br/><br/><hr/>
+					<span class="num">
+						<span id="current_page" class="current_page">1</span>&nbsp<span style="padding:0 3px;">/</span>&nbsp<span class="total"><%=event_count/5 %></span>
+					</span><br/><hr/><br/>
+					<a id="next" class="next" ><img src="css/images/down1.png" name="nex" style="width:80%; margin:0 auto;" onmouseover="mouseoverDown()" onmouseout="mouseoutDown()" /></a>
+				</div>
+			</div>

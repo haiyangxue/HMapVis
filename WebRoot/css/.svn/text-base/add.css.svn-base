@@ -1,0 +1,94 @@
+body{
+	margin:0px ! important;
+	background:#d7d6d6;
+}
+
+.logo{
+	margin-left:40px;
+	padding-top:10px;
+	color:white;
+	font-size:35px;
+	font-weight:bold;
+}
+.wrapper{
+	margin:0 auto;
+	margin-top:0px;
+	width:100%;
+	/*height:100%;*/
+	box-shadow: 0px 0px 3px #555;
+	z-index:9999;
+	background:#f4f4f4;
+}
+.title{
+	width:100%;
+	height:60px;
+	padding-top:1px;
+	padding-bottom:20px;	
+	background:#252525;
+}
+.title h1{
+	margin-left:15px;
+	font-family:微软雅黑;
+	font-weight:normal;
+	color:#fff;
+}
+.add-content {
+	padding: 1em;
+	color:#999;
+	font-family:微软雅黑;
+	font-size:12px;
+}
+.box{
+	padding:0px;
+	width:97%;
+	margin:0 auto;	
+}
+.result-content {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 300px;
+	background: white;
+}
+.txtInput{
+	display: block;
+	color:#bbb;
+	border: 0px !important;
+	border-bottom: 1px solid #DDDDDD !important;
+	background-color: white !important;
+	margin: 0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding: 8px 1% !important;
+	font-size: 14px !important;
+	-moz-border-radius: 2px !important;
+	-ms-border-radius: 2px !important;
+	-o-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	border-radius: 2px !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+.buttonInput{
+	margin-top:10px;
+	background-color: #2f2f2f;
+	border: 1px solid #2f2f2f;
+	color: #f4f4f4;
+	text-shadow: none;
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family:微软雅黑;
+	font-weight: normal;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+.buttonInput:hover{
+	background-color: #6f6f6f;
+	border: 1px solid #6f6f6f;
+}

@@ -1,0 +1,501 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	
+	<package name="jsp" extends="base_package" namespace="/action/jsp">
+		<action name="page_*" class="com.hmapvis.action.PageAction" method="{1}">
+			<result name="go_filter">/jsp/filter.jsp</result>
+			
+			<result name="go_addevent">/jsp/add/addEvent.jsp</result>
+			<result name="go_addplace">/jsp/add/addPlace.jsp</result>
+			<result name="go_addmap">/jsp/add/addMap.jsp</result>
+			<result name="go_editevent">/jsp/edit/editEvent.jsp</result>
+			<!-- upload data management -->
+			<result name="go_usersidebar">/jsp/user/userSidebar.jsp</result>
+			<result name="go_usermanager">/jsp/user/userManager.jsp</result>
+			
+			<!-- user -->
+			<result name="go_register">/jsp/user/userRegister.jsp</result>
+			<result name="go_login">/jsp/user/userLogin.jsp</result>
+			
+			<!-- building rename page -->
+			<result name="go_buildrename">/jsp/rename/buildrename.jsp</result>
+			<result name="go_namevote">/jsp/rename/namevote.jsp</result>
+			<result name="go_stulogin">/jsp/rename/stulogin.jsp</result>
+			
+			<!-- people -->
+			<result name="go_relation">/jsp/people/relation.jsp</result>
+			<result name="go_addpeople">/jsp/add/addpeople.jsp</result>
+			
+			
+        </action>
+        
+        <action name="userdata_*" class="com.hmapvis.action.UserDataAction" method="{1}">
+			<result name="go_usereventpage">/jsp/user/userEvent.jsp</result>
+        </action>
+	</package>
+	
+	
+	<package name="json" extends="json-default" namespace="/action/json">
+		<!--  
+		<action name="user_*" class="com.hmapvis.action.UserAction" method="{1}">
+			<result name="login_success">/index.jsp</result>
+			<result name="register_success">/index.jsp</result>
+		</action>
+		 -->
+		<action name="heatmap_*" class="com.hmapvis.action.HeatMapAction" method="{1}">
+       		<result type="json" name="heatmap_success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="heatmap_error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+		<action name="userdata_*" class="com.hmapvis.action.UserDataAction" method="{1}">
+		 	<result type="json" name="go_nexteventpage">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="go_preveventpage">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>	
+			            <result type="json" name="go_usereventpage">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="go_usernoweventpage">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>	
+            <!-- 地点 -->
+            <result type="json" name="go_nextplacepage">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="go_prevplacepage">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>	
+            <result type="json" name="go_userplacepage">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+             <result type="json" name="go_usernowplacepage">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>	
+            <!-- 人物 -->
+            <result type="json" name="go_nextpeoplepage">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="go_prevpeoplepage">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>	
+            <result type="json" name="go_usernowpeoplepage">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="go_userpeoplepage">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>			
+        </action>
+        
+		 
+		 <action name="fileUpload" class="com.hmapvis.action.FileUploadAction" method="upload">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+         </action>
+		 
+		  <action name="eventfileUpload" class="com.hmapvis.action.FileUploadAction" method="uploadeventpic">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+         </action>
+		 
+		 <action name="admin_*" class="com.hmapvis.action.AdminAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+		 
+		<action name="track_*" class="com.hmapvis.action.TrackAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+		 
+		<action name="user_*" class="com.hmapvis.action.UserAction" method="{1}">
+            <result type="json" name="success">
+			                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+             <result type="json" name="edit_success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="userLogin">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="space">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="fail">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="user_exist">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="userExit">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+       <action name="stu_*" class="com.hmapvis.action.StuAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="fail">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+       	<action name="place_*" class="com.hmapvis.action.PlaceAction" method="{1}">
+       		<result type="json" name="addplace_success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="addplace_error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+       
+        <action name="event_*" class="com.hmapvis.action.EventAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+        <action name="eventRela_*" class="com.hmapvis.action.EventRelaAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+        <action name="events_*" class="com.hmapvis.action.EventsAction" method="{1}">
+        	<result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+        <action name="queryevents_*" class="com.hmapvis.action.QueryEventsAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+         <action name="heatmapevents_*" class="com.hmapvis.action.HeatMapEventsAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+        <action name="dynasty_*" class="com.hmapvis.action.DynastyAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+        <action name="eventtype_*" class="com.hmapvis.action.EventTypeAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+        <action name="peoplequery_*" class="com.hmapvis.action.PeopleQueryAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+        <action name="people_*" class="com.hmapvis.action.PeopleAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+        <action name="peoplejob_*" class="com.hmapvis.action.PeopleJobAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+        <action name="job_*" class="com.hmapvis.action.JobAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+        <action name="education_*" class="com.hmapvis.action.EducationAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+         <action name="peopletrace_*" class="com.hmapvis.action.PeopleTraceAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        
+        <action name="map_*" class="com.hmapvis.action.MapAction" method="{1}">
+            <result type="json" name="addmap_success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="addmap_error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+        <action name="namevote_*" class="com.hmapvis.action.NameVoteAction" method="{1}">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="fail">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="update">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="overflow">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>  
+            <result type="json" name="voted">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>     
+        </action>
+	</package>
+	
+	<!--  
+	<package name="json" extends="json-default" namespace="/">  
+        <action name="loadmap" class="com.hmapvis.action.HMapAction" method="loadmap">
+            <result type="json" name="success">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+            <result type="json" name="error">
+                <param name="contentType">
+                    text/html
+                </param>
+            </result>
+        </action>
+	</package> 
+	-->
+</struts>

@@ -1,0 +1,26 @@
+<div class="wrapper">
+	<div class="title">
+		<h1>编辑历史地点</h1>
+	</div>
+	<div class="edit-content">
+		<div class="box" id="pl">
+			当时名称：<input type="text" id="place_name" class="txtInput"    style="width:100%;" value="{{place_name}}"></input>
+		</div>	
+		<div class="box" id="dl">
+	
+		</div>
+		<div class="box" >
+			现在名称：<input type="text" id="now_name" class="txtInput" style="width:100%;" value="{{now_name}}"></input>
+		</div>
+		<div class="box">
+			地点位置：<br/>
+			<input type="text" id="place_loc" class="txtInput" style="width:55%; float:left;"  value="{{place_loc}}></input>
+			<input type="button" id="getLocFromMap" class="buttonInput" value="获取坐标" style="width:20%; float:left; margin-left:1%;margin-top:5px;"></input>
+			<input type="button" id="sureLocFromMap" class="buttonInput" value="坐标定位" style="width:20%; float:left; margin-left:1%;margin-top:5px;display:none"></input>
+			<input type="button" id="showLocAtMap" class="buttonInput" value="坐标确认" style="width:20%; float:left; margin-left:1%;margin-top:5px;"></input><br /><br /><br />
+		</div>
+		
+		<input type="button" id="place_submit" class="buttonInput" style="margin-top:10px; width:100%;" value="提交"></input>
+		<input type="button" id="place_cancel" class="buttonInput" style="margin-top:10px; width:100%;" value="取消"></input>
+	</div>
+</div>

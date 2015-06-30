@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control
+END
+Navigation.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/Navigation.js
+END
+TouchNavigation.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/TouchNavigation.js
+END
+LayerSwitcher.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/LayerSwitcher.js
+END
+DrawFeature.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/DrawFeature.js
+END
+ZoomPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/ZoomPanel.js
+END
+PanZoom.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/PanZoom.js
+END
+PinchZoom.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/PinchZoom.js
+END
+Permalink.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/Permalink.js
+END
+Scale.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/Scale.js
+END
+LTZommAnimation.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/LTZommAnimation.js
+END
+PanPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/PanPanel.js
+END
+Panel.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/Panel.js
+END
+PanZoomBar.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/PanZoomBar.js
+END
+WMTSGetFeatureInfo.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/WMTSGetFeatureInfo.js
+END
+Geolocate.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/Geolocate.js
+END
+OverviewMap.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/OverviewMap.js
+END
+GetFeature.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/GetFeature.js
+END
+Pan.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/Pan.js
+END
+Snapping.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/Snapping.js
+END
+KeyboardDefaults.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/KeyboardDefaults.js
+END
+CacheRead.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/CacheRead.js
+END
+ZoomBox.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/ZoomBox.js
+END
+Graticule.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/Graticule.js
+END
+ArgParser.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/ArgParser.js
+END
+Zoom.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/Zoom.js
+END
+Button.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/Button.js
+END
+MousePosition.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/MousePosition.js
+END
+UTFGrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/UTFGrid.js
+END
+WMSGetFeatureInfo.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/WMSGetFeatureInfo.js
+END
+TransformFeature.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/TransformFeature.js
+END
+DragPan.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/DragPan.js
+END
+SLDSelect.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/SLDSelect.js
+END
+EditingToolbar.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/EditingToolbar.js
+END
+DragFeature.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/DragFeature.js
+END
+NavigationHistory.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/NavigationHistory.js
+END
+ZoomToMaxExtent.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/ZoomToMaxExtent.js
+END
+Attribution.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/Attribution.js
+END
+ScaleLine.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/ScaleLine.js
+END
+Measure.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/Measure.js
+END
+CacheWrite.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/CacheWrite.js
+END
+ModifyFeature.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/ModifyFeature.js
+END
+ZoomOut.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/ZoomOut.js
+END
+SelectFeature.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/SelectFeature.js
+END
+Split.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/Split.js
+END
+ZoomIn.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/ZoomIn.js
+END
+NavToolbar.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MapVis/!svn/ver/258/HMapVis_0.2/WebRoot/openlayers/lib/OpenLayers/Control/NavToolbar.js
+END

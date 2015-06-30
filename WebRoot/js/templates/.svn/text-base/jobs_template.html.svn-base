@@ -1,0 +1,6 @@
+人物职业：
+<select id="job" class="txtInput" style="width:100%;">
+	{{#jobs}}
+		<option value = "{{job_id}}">{{job_name}}</option>
+	{{/jobs}}
+</select>

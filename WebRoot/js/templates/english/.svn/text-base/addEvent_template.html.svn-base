@@ -1,0 +1,127 @@
+<style>
+/* 收缩/展开效果 */
+.text {
+	line-height: 28px;
+	padding: 0 6px;
+	color: #666;
+}
+
+.box a {
+	display: block;
+	padding-left: 10px;
+	height: 28px;
+	line-height: 28px;
+	background: #f1f1f1;
+	font-weight: bold;
+	cursor: pointer
+}
+
+.box {
+	border: 1px solid #e7e7e7;
+}
+</style>
+<div class="wrapper">
+	<div class="first_con" id="first_content" style="display:block">
+		<div class="title">
+			<h1>Add Event</h1>
+		</div>
+		<div class="add-content">
+			<div class="box">
+				<img src="images/loading.gif" id="loading" style="display: none;"></img>
+				<input type="file" id="file" name="file" /><br /> <input
+					type="button" id="upload" value="上传" class="buttonInput"
+					style="width:100%;" /><br /> <input type="button" id="reupload"
+					value="reupload" class="buttonInput" style="width:100%;display: none;" /><br />
+			</div>
+			<div class="box">
+				Event Name:<input type="text" id="event_name" class="txtInput"
+					style="width:100%;"></input>
+			</div>
+			<div class="box" id="et"></div>
+			<div class="box" id="dl"></div>
+			<div class="box" id="pl">
+				Happended In:<input type="text" id="tem" class="txtInput"
+					style="width:100%;" readonly="readonly" value="Please choose dynasty first"></input>
+			</div>
+			<div class="box">
+				Time Range:<br /> <input type="text" id="event_start" class="txtInput"
+					value="Start Time" onfocus="onTimeStartfocus('event_start')"
+					onblur="onTimeStartBlur('event_start')"
+					style="float:left; width:49%;"></input> <span
+					style="float:left; margin-top:12px; width:2%;">&nbsp-&nbsp</span> <input
+					type="text" id="event_end" class="txtInput" value="End Time"
+					onfocus="onTimeEndfocus('event_end')"
+					onblur="onTimeEndBlur('event_end')" style="float:left; width:49%;"></input><br />
+			</div>
+			<div class="box">
+				People Involved: <input type="text" id="event_people" class="txtInput"
+					style="width:100%;"></input>
+			</div>
+			<div class="box">
+				Event Influence:<input type="text" id="event_infu" class="txtInput"
+					style="width:100%;"></input>
+			</div>
+			<div class="box">
+				Basic Info:<input type="text" id="event_summary" class="txtInput"
+					style="width:100%;"></input>
+			</div>
+			<div clas="box">
+				Detail Intro:<input type="text" id="event_detail" class="txtInput"
+					style="width:100%;"></input>
+			</div>
+			<div clas="box">
+				Related Video:<input type="text" id="event_video" class="txtInput"
+					style="width:100%;"></input>
+			</div>
+		</div>
+	</div>
+	<div id="boxaa">
+		<div class="box" id="event_relation" style="display:none">
+			Related Event:<br /> <input type="text" id="event_name2" class="txtInput"
+				style="width:70%; float:left;"></input> <input type="button"
+				id="queryRe" class="buttonInput" value="Search event name"
+				style="width:29%; float:left; margin-left:1%;margin-top:5px;"></input>
+
+		</div>
+		<div id="rl"></div>
+		<div class="box1" id="query_event_relation">
+
+			<div id="add_existing">
+				<div class="box2">
+					Choose Relation Type:<br /> <select id="existing_event_select"
+						class="txtInput" style="width:100%;">
+						<option value="1">Causality</option>
+						<option value="2">Contains</option>
+						<option value="3">Share the same father</option>
+					</select>
+				</div>
+				<input type="button" id="related_existing_event_submit"
+					class="buttonInput"
+					style="margin-top: 10px;width: 90%;margin-left: 10px;"
+					value="add search event"></input>
+			</div>
+			<div class="box3">
+				<input type="button" id="open_related_new_event_submit"
+					class="buttonInput"
+					style="margin-top: 10px;width: 90%;margin-left: 10px;"
+					value="click to add new event"></input>
+
+				<div class="box4" id="add_new">
+					Choose Relation Type: <br /> <select id="new_event_select" class="txtInput"
+						style="width:100%;">
+						<option value="1">Causality</option>
+						<option value="2">Contains</option>
+						<option value="3">Share the same father</option>
+					</select> <input type="button" id="related_new_event_submit"
+						class="buttonInput"
+						style="margin-top: 10px;width: 90%;margin-left: 10px;" value="添加"></input>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="thrid_content" id="thrid_content" style="display:block">
+		<input type="button" id="event_submit" class="buttonInput" style="margin-top:10px; width:100%;" value="Submit"></input>
+	</div>
+	<input type="button" id="event_cancel" class="buttonInput" style="margin-top:10px; width:100%;" value="Cancel"></input>
+
+</div>
